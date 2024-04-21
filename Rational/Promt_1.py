@@ -1,4 +1,4 @@
-    class Rational:
+class Rational:
     def __init__(self, numerator, denominator):
         if denominator == 0:
             raise ValueError("Denominator cannot be zero.")
